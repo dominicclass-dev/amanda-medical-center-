@@ -20,7 +20,7 @@ import { motion } from 'motion/react';
 export default function App() {
   return (
     <LanguageProvider>
-      <div className="min-h-screen bg-transparent font-sans selection:bg-[#0A1931] selection:text-white">
+      <div className="min-h-screen bg-transparent font-sans selection:bg-[#8B5E3C] selection:text-white">
         <Navbar />
         <main>
           <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5 }}><Hero /></motion.div>

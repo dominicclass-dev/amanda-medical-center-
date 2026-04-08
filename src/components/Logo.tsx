@@ -15,7 +15,7 @@ export const Logo: React.FC<LogoProps> = ({ className = "w-16 h-16" }) => {
         WebkitMaskImage: `url(${logoUrl})`,
       }}
       role="img"
-      aria-label="Amanda Medical Center Logo"
+      aria-label="Clinic Logo"
     />
   );
 };

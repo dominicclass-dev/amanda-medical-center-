@@ -114,7 +114,7 @@ export const translations = {
       description: 'لقد قمنا بتجميع إجابات لبعض الأسئلة الأكثر شيوعاً حول خدماتنا وعلاجاتنا وما يمكن أن تتوقعه خلال زيارتك. إذا كنت بحاجة إلى مزيد من المساعدة أو لديك استفسارات إضافية، فلا تتردد في الاتصال بنا.',
       questions: [
         {
-          q: 'ما هي الخدمات التي تقدمها مركز أماندا الطبي؟',
+          q: 'ما هي الخدمات التي يقدمها مركز أماندا الطبي؟',
           a: 'نقدم مجموعة واسعة من الخدمات بما في ذلك العناية بالبشرة، الجراحة التجميلية، الحقن التجميلية، التجميل النسائي، وعلاجات الليزر.'
         },
         {
@@ -152,8 +152,8 @@ export const translations = {
     footer: {
       contact: 'تواصل معنا',
       location: 'موقعنا',
-      phone: '920020140',
-      address: 'حي النهضة، 5028 عبدالرحمن الداخل، جدة، المملكة العربية السعودية',
+      phone: '9200 20140',
+      address: 'حي النهضة، 5028 عبدالرحمن الداخل، جدة',
       rights: 'جميع الحقوق محفوظة © مركز أماندا الطبي',
     }
   },
@@ -311,7 +311,7 @@ export const translations = {
       contact: 'Contact Us',
       location: 'Our Location',
       phone: '+966 9200 20140',
-      address: 'An Nahdah, 5028 Abdurahman Al Dakhel, Jeddah, Saudi Arabia',
+      address: 'An Nahdah, 5028 Abdurahman Al Dakhel, Jeddah',
       rights: 'All rights reserved © Amanda Medical Center',
     }
   }

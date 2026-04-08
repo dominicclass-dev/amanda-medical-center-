@@ -13,7 +13,7 @@ export const Footer: React.FC = () => {
           {/* Brand */}
           <div className="flex flex-col items-center md:items-start">
             <a href="#" className="mb-4 block">
-              <Logo className="w-16 h-16 md:w-20 md:h-20 scale-150 origin-center md:origin-left md:rtl:origin-right transition-all duration-300" />
+              <Logo className="w-12 h-12 md:w-20 md:h-20 origin-center md:origin-left md:rtl:origin-right transition-all duration-300" />
             </a>
           </div>
 
@@ -41,7 +41,7 @@ export const Footer: React.FC = () => {
           {/* Map */}
           <div className="flex flex-col items-center md:items-start">
             <h3 className="text-xl font-bold mb-6 text-white font-serif">{t.footer.location || 'موقعنا / Location'}</h3>
-            <div className="w-full h-48 rounded-lg overflow-hidden border border-white/10 shadow-gold bg-white">
+            <div className="w-full h-48 rounded-lg overflow-hidden border border-white/10 bg-white">
               <iframe
                 src="https://maps.google.com/maps?q=Amanda%20Medical%20Center%20Jeddah%20An%20Nahdah&t=&z=16&ie=UTF8&iwloc=&output=embed"
                 width="100%"

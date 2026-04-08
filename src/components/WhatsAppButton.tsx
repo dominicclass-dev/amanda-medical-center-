@@ -7,7 +7,7 @@ export const WhatsAppButton: React.FC = () => {
   const { t, lang } = useLanguage();
 
   return (
-    <div className="fixed bottom-16 md:bottom-6 right-6 z-50 flex flex-col gap-4 items-center">
+    <div className="fixed bottom-6 right-6 z-50 flex flex-col gap-4 items-center">
       {/* Call Button */}
       <motion.a
         href="tel:+966920020140"
@@ -15,14 +15,14 @@ export const WhatsAppButton: React.FC = () => {
         animate={{ opacity: 1, scale: 1, y: 0 }}
         whileHover={{ scale: 1.05 }}
         whileTap={{ scale: 0.95 }}
-        className="btn-premium px-4 py-3 rounded-full flex items-center gap-2"
+        className="btn-premium px-6 py-3 rounded-full flex items-center gap-3 shadow-2xl hover:shadow-gold transition-all duration-300 border-2 border-white/20"
         aria-label="Call Us"
       >
         <span className="snow-layer-3" />
-        <Phone className="w-5 h-5" />
-        <span className="font-bold whitespace-nowrap text-sm md:text-base">
+        <span className="font-bold whitespace-nowrap text-sm md:text-base relative z-10">
           {lang === 'ar' ? 'احجز موعدك الآن' : 'Book Now'}
         </span>
+        <Phone className="w-5 h-5 relative z-10" />
       </motion.a>
 
       {/* WhatsApp Button */}
